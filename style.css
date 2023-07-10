@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  height: 100px;
+  width: 100%;
+  background-image: url(img/pattern.png);
+  background-color: rgb(78, 160, 255);
+  background-size:cover
+}
+#container-logo{
+  width: 100px;
+  color: white;
+  padding: 5px;
+}
