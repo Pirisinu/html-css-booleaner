@@ -1,7 +1,14 @@
+/* Inizio regole generali */
 * {
   margin: 0px;
   padding: 0px;
 }
+header img, main, footer{
+  margin: 15px;
+}
+/* Fine regole generali */
+
+/* Inizio sezione Header */
 header{
   height: 150px;
   background-image: url(img/pattern.png);
@@ -11,14 +18,52 @@ header{
 header img{
   width: 250px;
   color: white;
-  padding: 10px;
   position: absolute;
   left: 0;
   bottom: 0;
 }
+/* Fine sezione Header */
+
+/* Inizio sezione Main */
 .titolo-pagina p{
   color: rgb(120, 120, 120);
 } 
-main,footer{
+.foto-descrizione p{
+  font-size: 0.7rem;
+}
+.testo-pagina ul{
+  padding-left: 15px;
+}
+table{
+  width: 100%;
+  margin-top: 20px;
+}
+.tabella thead{
+  background-color: rgb(35, 169, 229);
+  color: white;
+}
+.table-text{
+  width: 60%;
+}
+.row-color{
+  background-color: rgb(177, 229, 242);
+}
+/* Fine sezione Main */
+/* Inizio sezione Footer */
+footer > p{
+  color: rgb(120, 120, 120);
+}
+.container{
+  width: 312px;
+  height: 208px;
+  color: white;
   padding: 15px;
 }
+.container.link-computer{
+  background-image: url(img/monitor.jpg);
+}
+.container.link-finanza{
+  background-image: url(img/graph.jpg);
+}
+
+/* Fine sezione Footer */
